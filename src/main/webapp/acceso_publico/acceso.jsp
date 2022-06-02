@@ -5,7 +5,7 @@
   Time: 1:16 p. m.
   To change this template use File | Settings | File Templates.
 --%>
-<%@ include file="layout/header.jsp" %>
+<%@ include file="../layout/header.jsp" %>
 
 <%@ page contentType="text/html;charset=UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
@@ -55,4 +55,4 @@
     </section>
 
 </div>
-<%@include file="layout/footer.jsp" %>
+<%@include file="../layout/footer.jsp" %>

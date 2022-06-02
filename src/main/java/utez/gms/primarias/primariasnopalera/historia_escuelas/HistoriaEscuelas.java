@@ -1,15 +1,15 @@
-package utez.gms.primarias.primariasnopalera.acceso.controller;
+package utez.gms.primarias.primariasnopalera.historia_escuelas;
 
 import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 import java.io.IOException;
 
-@WebServlet(name = "Acceso", value = "/acceso")
-public class Acceso extends HttpServlet {
+@WebServlet(name = "HistoriaEscuelas", value = "/HistoriaEscuelas")
+public class HistoriaEscuelas extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("acceso_publico/acceso.jsp").forward(request, response);
+        request.getRequestDispatcher("acceso_publico/historia_escuelas.jsp").forward(request, response);
 
     }
 

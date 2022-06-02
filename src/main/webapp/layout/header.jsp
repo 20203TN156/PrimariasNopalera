@@ -12,6 +12,12 @@
   <!-- CSS -->
   <link href="https://framework-gb.cdn.gob.mx/gm/v4/image/favicon.ico" rel="shortcut icon">
   <link href="https://framework-gb.cdn.gob.mx/gm/v4/css/main.css" rel="stylesheet">
+  <link href="../style/jquery-ui.min.css" rel="stylesheet">
+  <link href="../style/jquery-ui.css" rel="stylesheet">
+
+  <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+
+
 
 </head>
 <body>
@@ -26,10 +32,8 @@
       </button>
       <a class="navbar-brand sub-navbar" href="inicio">Primarias Nopalera</a>
 
-      <div class="collapse navbar-collapse" id="subNavBarDropdown">
+      <div class="collapse navbar-collapse form-control border-0" id="subNavBarDropdown">
         <ul class="navbar-nav">
-
-
           <li class="nav-item dropdown">
             <a class="nav-link subnav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -40,8 +44,9 @@
               Institución
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Conoce tu plantel</a>
+              <a class="dropdown-item " href="#">Conoce tu plantel</a>
               <a class="dropdown-item" href="calendario_escolar">Calendario escolar</a>
+              <a class="dropdown-item" href="inscripcion_alumno">Inscripción de alumno</a>
             </div>
           </li>
 
@@ -59,7 +64,7 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="#">Noticias</a>
-              <a class="dropdown-item" href="https://www.siged.sep.gob.mx/SIGED/alumnos.html">Consultar calificaciones</a>
+              <a class="dropdown-item" href="https://www.siged.sep.gob.mx/SIGED/alumnos.html" target="_blank">Consultar calificaciones</a>
             </div>
           </li>
 
@@ -74,7 +79,7 @@
               Docentes
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="https://miceeb4-primarias.iebem.edu.mx">Subir calificaciones</a>
+              <a class="dropdown-item" href="https://miceeb4-primarias.iebem.edu.mx" target="_blank">Subir calificaciones</a>
             </div>
           </li>
 

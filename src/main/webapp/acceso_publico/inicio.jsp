@@ -8,20 +8,20 @@
 <%@ page contentType="text/html;charset=UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
-<%@include file="layout/header.jsp" %>
+<%@include file="../layout/header.jsp" %>
 
 
 <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="img/carousel_1.jpg" class="d-block w-100" alt="...">
+            <img src="../img/carousel_1.jpg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-            <img src="img/carousel_2.jpg" class="d-block w-100" alt="...">
+            <img src="../img/carousel_2.jpg" class="d-block w-100" alt="...">
         </div>
     </div>
 </div>
-<div class="" style="margin: 20px">
+<div class="d-flex justify-content-center" style="align-content: center; margin-top: 100px; margin-bottom: 50px">
 
     <div class="card-columns">
 
@@ -54,11 +54,13 @@
                     height: 100%;
                 }</style>
                 <div class='embed-container'>
-                    <iframe class="rounded" src='https://www.youtube.com/embed/lu5VXrEqgco' frameborder='0'
+                    <iframe class="rounded" src='https://www.youtube.com/embed/IR8evwge5WU' frameborder='0'
                             allowfullscreen></iframe>
                 </div>
             </div>
         </div>
+
+
 
 
         <div class="card border-0">
@@ -79,14 +81,14 @@
                     height: 100%;
                 }</style>
                 <div class='embed-container'>
-                    <img src="img/carousel_1.jpg" class="rounded" alt="">
+                    <img src="../img/carousel_1.jpg" class="rounded" alt="">
                 </div>
             </div>
         </div>
 
         <div class="card border-0">
             <div class="card-body text-center">
-                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FLatam.PlayStation&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSEPmx&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
                         width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
                         allowfullscreen="true"
                         allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
@@ -98,4 +100,4 @@
 
 </div>
 
-<%@include file="layout/footer.jsp" %>
+<%@include file="../layout/footer.jsp" %>
