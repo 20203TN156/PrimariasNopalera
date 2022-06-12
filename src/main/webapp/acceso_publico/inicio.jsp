@@ -14,14 +14,14 @@
 <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="../img/carousel_1.jpg" class="d-block w-100" alt="...">
+            <img src="img/portada.jpg" class="d-block w-100" alt="...">
         </div>
-        <div class="carousel-item">
-            <img src="../img/carousel_2.jpg" class="d-block w-100" alt="...">
-        </div>
+        <%--<div class="carousel-item">
+            <img src="img/carousel_2.jpg" class="d-block w-100" alt="...">
+        </div>--%>
     </div>
 </div>
-<div class="d-flex justify-content-center" style="align-content: center; margin-top: 100px; margin-bottom: 50px">
+<div class="d-flex justify-content-center" style="align-content: center; margin-top: 20px; margin-bottom: 50px">
 
     <div class="card-columns">
 
@@ -80,9 +80,6 @@
                     width: 100%;
                     height: 100%;
                 }</style>
-                <div class='embed-container'>
-                    <img src="../img/carousel_1.jpg" class="rounded" alt="">
-                </div>
             </div>
         </div>
 
@@ -97,6 +94,7 @@
         </div>
     </div>
 
+        <img src="img/bo.jpg" class="rounded" alt="">
 
 </div>
 

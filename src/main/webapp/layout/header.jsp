@@ -32,7 +32,7 @@
       </button>
       <a class="navbar-brand sub-navbar" href="inicio">Primarias Nopalera</a>
 
-      <div class="collapse navbar-collapse form-control border-0" id="subNavBarDropdown">
+      <div class="collapse navbar-collapse" id="subNavBarDropdown">
         <ul class="navbar-nav">
           <li class="nav-item dropdown">
             <a class="nav-link subnav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
